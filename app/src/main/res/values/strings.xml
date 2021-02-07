@@ -12,4 +12,6 @@
     <string name="book_cover">Book cover</string>
     <string name="author">Author</string>
     <string name="title">Title</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear search</string>
 </resources>

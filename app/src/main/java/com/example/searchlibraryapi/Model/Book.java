@@ -2,13 +2,15 @@ package com.example.searchlibraryapi.Model;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Book {
     @SerializedName("title")
     private String title;
     @SerializedName("author_name")
-    private List<String> authors;
+    private ArrayList<String> authors;
     @SerializedName("cover_i")
     private String cover;
 
@@ -20,11 +22,11 @@ public class Book {
         this.title = title;
     }
 
-    public List<String> getAuthors() {
+    public ArrayList<String> getAuthors() {
         return authors;
     }
 
-    public void setAuthors(List<String> authors) {
+    public void setAuthors(ArrayList<String> authors) {
         this.authors = authors;
     }
 

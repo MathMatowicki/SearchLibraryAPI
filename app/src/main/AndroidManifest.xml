@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SearchLibraryAPI"
         android:usesCleartextTraffic="true">
+        <activity android:name=".DetailBookActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
